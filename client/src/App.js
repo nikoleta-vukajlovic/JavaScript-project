@@ -10,6 +10,7 @@ class App extends Component {
         this.state = {
             data: []
         };
+        
         this.backToGame = this.backToGame.bind(this);
     }
     componentDidMount() {
